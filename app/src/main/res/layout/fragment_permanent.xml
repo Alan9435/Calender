@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <EditText
+        android:background="#FFEE99"
+        android:textSize="9pt"
+        android:layout_margin="30dp"
+        android:id="@+id/edit_permanent"
+        android:inputType="textMultiLine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:text="save"
+        android:id="@+id/btn_updata"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:layout_margin="30dp"
+        />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/button_delete_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_delete"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="32dp"/>
+</android.support.design.widget.CoordinatorLayout>

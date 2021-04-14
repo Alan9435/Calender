@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".add_note">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFEE99"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:textSize="30dp"
+            android:padding="15dp"
+            android:text="內容 : "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:background="#ffffff"
+            android:id="@+id/edit_description"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:padding="30dp"
+            android:textSize="9pt"
+            android:hint="    input "
+            android:inputType="textMultiLine"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/button_delete_note"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_delete"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="32dp"/>
+</android.support.design.widget.CoordinatorLayout>

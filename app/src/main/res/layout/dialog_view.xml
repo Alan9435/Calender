@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="200dp"
+    android:orientation="vertical"
+    android:background="#ACD6FF"
+    android:id="@+id/dialog_view">
+
+    <TextView
+        android:textSize="25sp"
+        android:textColor="#FFFF5151"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:text="確認刪除?"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <Button
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:id="@+id/btn_cancel"
+            android:background="	#46A3FF"
+            android:layout_gravity="bottom"
+            android:text="取消"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+        <Button
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:id="@+id/btn_sure"
+            android:background="	#46A3FF"
+            android:layout_marginLeft="40sp"
+            android:layout_gravity="bottom"
+            android:text="確定"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <!--android:checkableBehavior="single 是設置為單選-->
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_today_calendar"
+            android:icon="@drawable/ic_today_calendar"
+            android:title="行事曆" />
+        <item
+            android:id="@+id/nav_updataview"
+            android:icon="@drawable/ic_baseline_build_circle_24"
+            android:title="增修刪查" />
+        <item
+            android:id="@+id/nav_memorandum"
+            android:icon="@drawable/ic_baseline_fiber_new_24"
+            android:title="近期新增" />
+
+
+    </group>
+</menu>
